@@ -411,16 +411,16 @@ li .icon {
 .container .sidebar {
 position: relative;
     height: 100%;
-    width: 100vw;
+    width: 0vw;
     background: rgb(108, 110, 250);
     transition: 0.3s;
-    z-index: 9985;
+    z-index: 1000;
 }
 .sidebar.active {
   position: relative;
-  width: 0vw;
+  width: 100vw;
   transition: ease-in-out 0.5s;
-  z-index: 1000;
+  z-index: 10001;
 }
 
 
